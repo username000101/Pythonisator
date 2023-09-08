@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1694205082 source:c:\users\brawl\onedrive\Документы\pythonisator0.1-beta\pythonisator\main.cpp
+	<iostream>
+	<string>
+	"print.h"
+	"str_equals.h"
+	"definer.h"
+
+1694203787 c:\users\brawl\onedrive\Документы\pythonisator0.1-beta\pythonisator\print.h
+
+1694204451 c:\users\brawl\onedrive\Документы\pythonisator0.1-beta\pythonisator\str_equals.h
+
+1694204828 c:\users\brawl\onedrive\Документы\pythonisator0.1-beta\pythonisator\definer.h
+
