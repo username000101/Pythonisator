@@ -1,6 +1,6 @@
 #ifndef STR_EQUALS_H_INCLUDED
 #define STR_EQUALS_H_INCLUDED
-#pragma message("str_equals.h version 0.5(beta). How it works? I don't know")
+#pragma message("str_equals.h version 0.5.1beta->Compilation completed. Enjoy!")
 using namespace std;
 namespace Pythonisator_equals
 {
@@ -9,17 +9,11 @@ namespace Pythonisator_equals
         if (str1.compare(str2))
         {
             bool equals_result = true;
-            if (equals_result == true)
-            {
-                cout << "true" << endl;
-            }
+            cout << equals_result << endl;
         } else
         {
             bool equals_result = false;
-            if (equals_result == false)
-            {
-                cout << "false" << endl;
-            }
+            cout << equals_result << endl;
         }
     }
 }
