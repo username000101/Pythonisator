@@ -1,6 +1,6 @@
 #ifndef PRINT_H_INCLUDED
 #define PRINT_H_INCLUDED
-#pragma message("print.h версия 0.5beta->Compilation completed")
+#pragma message("print.h версия 0.5beta->Компиляция прошла успешно, удачи!")
 using namespace std;
 namespace Pythonisator_print
 {
