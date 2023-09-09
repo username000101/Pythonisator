@@ -4,11 +4,11 @@
 using namespace std;
 namespace Pythonisator_print
 {
-    static void print(string text)
+    static void print(string text) // This method displays text to console.
     {
         cout << text;
     }
-    static void println(string text)
+    static void println(string text) // This method displays text to console and creating a new line.
     {
         cout << text << endl;
     }
