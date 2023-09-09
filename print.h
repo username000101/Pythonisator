@@ -1,14 +1,14 @@
+#pragma message("print.h version 0.5.5beta->Compilation completed. Enjoy!")
 #ifndef PRINT_H_INCLUDED
 #define PRINT_H_INCLUDED
-#pragma message("print.h версия 0.5.1beta->Компиляция прошла успешно, удачи!")
 using namespace std;
 namespace Pythonisator_print
 {
-    static void print(string text) // Этот метод выводит текст в консоли(cout)
+    static void print(string text) // This method displays text to console.
     {
         cout << text;
     }
-    static void println(string text) // Этот метод тоже выводит текст, но в конце меняет строку на новую(endl \ \n)
+    static void println(string text) // This method displays text to console and creating a new line.
     {
         cout << text << endl;
     }

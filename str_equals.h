@@ -1,24 +1,24 @@
+#pragma message("str_equals.h version 0.5.5beta->Compilation completed. Enjoy!")
 #ifndef STR_EQUALS_H_INCLUDED
 #define STR_EQUALS_H_INCLUDED
-#pragma message("str_equals.h версия 0.5.5beta->Компиляция прошла успешно. Удачи!")
 using namespace std;
 namespace Pythonisator_equals
 {
-    static void equals(string str1, string str2)
+    static void equals(string str1, string str2) // The method compares strings ignoring case.
     {
         if (str1.compare(str2))
         {
             bool equals_result = true;
             if (equals_result == true)
             {
-                cout << "true" << endl;
+                cout << "true" << endl; // if condition = true - method print("true")
             }
         } else
         {
             bool equals_result = false;
             if (equals_result == false)
             {
-                cout << "false" << endl;
+                cout << "false" << endl; // if condition = false - method print("false")
             }
         }
     }

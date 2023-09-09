@@ -1,7 +1,9 @@
+#pragma message("definer.h version 0.5.5beta->Compilation completed. Enjoy!")
 #ifndef DEFINER_H_INCLUDED
 #define DEFINER_H_INCLUDED
-#pragma message("definer.h версия 0.5.1beta->Компиляция прошла успешно, удачи!")
-#define and && // Логический оператор "and"
-#define or || // Логический оператор "or"
-#define not ! // Логический оператор "not"
+#define input getline
+#define inputv cin>>
+#define AND && // Logic operator "and"
+#define OR || // Logic operator "or"
+#define NOT ! // Logic operator "not"
 #endif // DEFINER_H_INCLUDED
