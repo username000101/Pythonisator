@@ -1,6 +1,6 @@
 #ifndef STR_EQUALS_H_INCLUDED
 #define STR_EQUALS_H_INCLUDED
-#pragma message("str_equals.h version 0.5.1beta->Compilation completed. Enjoy!")
+#pragma message("str_equals.h version 0.5.5beta->Compilation completed. Enjoy!")
 using namespace std;
 namespace Pythonisator_equals
 {
