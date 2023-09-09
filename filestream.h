@@ -7,17 +7,17 @@
 using namespace std;
 namespace Pythonisator_filestream
 {
-    static void read_file(string path, string data)
+    static void read_file(string path, string data) // Method for reading data from a file, call: read_file(filepath, data(a variable into which data from the file will be written))
     {
-        ifstream file(path);
-        while(getline(file, data))
+        ifstream file(path); // Open a stream
+        while(getline(file, data)) // Read file and write data to variable
         {
-            cout << data << endl;
+            cout << data << endl; 
         }
     }
-        static void write_file(string path, string data)
+        static void write_file(string path, string data) // Method for writing to file data, call: write_file(filepath, data(Data to be written to file))
         {
-            ofstream file(path, ofstream::app);
+            ofstream file(path, ofstream::app); // Open a stream
             file << data;
         }
 
