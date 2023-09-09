@@ -6,19 +6,19 @@ namespace Pythonisator_equals
 {
     static void equals(string str1, string str2)
     {
-        if (str1.compare(str2))
+        if (str1.compare(str2)) // if str1  == str2: true
         {
-            bool equals_result = true;
-            if (equals_result == true)
+            bool equals_result = true; // Save result
+            if (equals_result == true) // Check result
             {
-                cout << "true" << endl;
+                cout << "true" << endl; // displayed result
             }
-        } else
+        } else // if str1 != str2: false
         {
-            bool equals_result = false;
-            if (equals_result == false)
+            bool equals_result = false; // Save result
+            if (equals_result == false) // Check result
             {
-                cout << "false" << endl;
+                cout << "false" << endl; // Displayed result
             }
         }
     }
