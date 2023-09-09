@@ -1,6 +1,6 @@
 #ifndef DEFINER_H_INCLUDED
 #define DEFINER_H_INCLUDED
-#define and && // Logic operator "and"
-#define or || // Logic operator "or"
-#define not !
+#define and && // Логический оператор "and"
+#define or || // Логический оператор "or"
+#define not ! // Логический оператор "not"
 #endif // DEFINER_H_INCLUDED
