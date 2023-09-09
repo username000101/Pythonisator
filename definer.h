@@ -1,8 +1,8 @@
 #ifndef DEFINER_H_INCLUDED
 #define DEFINER_H_INCLUDED
-#define a & // Operator "and" step 1
-#define nd & // Operator "and" step 2
-#define o | // Operator "or" step 1
-#define r | // Operator "or" step 2
+#define a & // Оператор "и" часть 1
+#define nd & // Оператор "и" часть 2
+#define o | // Оператор "или" часть 1
+#define r | // Оператор "или" часть 2
 
 #endif // DEFINER_H_INCLUDED
