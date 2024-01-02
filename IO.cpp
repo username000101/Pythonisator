@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-#include "IO.hpp"
-template <typename Obj>
-void print(Obj object)
-{
-	cout << object;
-}
-template <typename Obj>
-void println(Obj object)
-{
-	cout << object << endl;
-}
-=======
-//
-// Created by user on 02.01.24.
-//
 #include "IO.hpp"
 template<>
 void print<const char*>(const char* text) {
@@ -104,4 +88,3 @@ string open(string filename, string mode, string text) {
     }
     return "";
 }
->>>>>>> 9168802 (Уже как традиция какая-то.. Периодически возвращаться с Pythonisator. Переписал с нуля, вроде работает нормально.)
