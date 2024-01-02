@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <string>
 #define NOT !
@@ -59,3 +60,22 @@ string input()
 	getline(cin, TemporaryBuffer);
 	return TemporaryBuffer;
 }
+=======
+//
+// Created by user on 02.01.24.
+//
+#ifndef IO_HPP
+#define IO_HPP
+#include <iostream>
+#include <vector>
+#include <fstream>
+#include <variant>
+#include <string.h>
+using namespace std;
+template<typename T>
+void print(T _obj);
+template<typename T>
+void println(T _obj);
+string open(string filename,string mode,string text = "");
+#endif //IO_HPP
+>>>>>>> 9168802 (Уже как традиция какая-то.. Периодически возвращаться с Pythonisator. Переписал с нуля, вроде работает нормально.)
